@@ -18,6 +18,25 @@ body {
   line-height: 1.6;
 }
 
+.header-flex {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+}
+
+.qrcode {
+  width: 150px;
+  display: block;
+  margin: 20px auto;
+}
+
 header {
   background: var(--verde-escuro);
   color: var(--branco);
